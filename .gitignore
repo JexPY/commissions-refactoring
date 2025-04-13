@@ -1,0 +1,6 @@
+src/.DS_Store
+.DS_Store
+.env
+/vendor/
+.phpunit.result.cache
+/cache/
