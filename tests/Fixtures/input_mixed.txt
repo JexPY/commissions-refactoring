@@ -1,0 +1,9 @@
+{"bin":"45717360","amount":"100.00","currency":"EUR"}
+{"bin":"516793","amount":"50.00","currency":"USD"}
+{"bin":"BROKEN","amount":"50.00","currency":"USD"}
+{"bin":"516793","amount":"-50.00","currency":"USD"}
+{"bin":"516793", "currency":"USD"}
+{"bin":"411111","amount":"10000.00","currency":"JPY"}
+this is not json
+{"bin":"BIN_ERROR","amount":"10.00","currency":"EUR"}
+{"bin":"516793","amount":"50.00","currency":"RATE_ERROR"}
