@@ -24,7 +24,7 @@ Handling external API limitations was key:
 
 ## Key Features
 
-* PHP 8.4
+* PHP 8.3 (Tested on 8.4)
 * Composer Dependency Management
 * Dependency Injection (Custom Container) & Interfaces
 * Caching (`symfony/cache`)
@@ -35,7 +35,7 @@ Handling external API limitations was key:
 
 ## Setup & Usage
 
-**Prerequisites:** PHP 8.4+, Composer, Docker & Docker Compose (Optional)
+**Prerequisites:** PHP 8.3+, Composer, Docker & Docker Compose (Optional)
 
 1.  **Clone:**
     ```bash
