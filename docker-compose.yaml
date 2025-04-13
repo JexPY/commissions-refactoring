@@ -1,0 +1,22 @@
+
+services:
+  app:
+    container_name: commission_calculator_app
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args: 
+        APP_UID: ${APP_UID:-1000}
+        APP_GID: ${APP_GID:-1000} 
+    user: "${APP_UID:-1000}:${APP_GID:-1000}"
+    volumes:
+
+      - .:/app:delegated
+      - app_cache:/app/cache
+      - /app/vendor
+    tty: true
+    stdin_open: true
+
+volumes:
+  app_cache:
+    driver: local
