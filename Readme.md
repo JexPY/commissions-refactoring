@@ -63,6 +63,14 @@ Handling external API limitations was key:
     ```bash
     php app.php input.txt
     ```
+* **The Output with current input.txt will look like this:**
+    ```bash
+    1
+    0.45
+    1.24
+    2.3
+    23.25
+    ```
 * **Via Docker (Recommended):**
     ```bash
     docker-compose build
